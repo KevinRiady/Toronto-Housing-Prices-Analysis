@@ -47,7 +47,7 @@
 2. For each property type, what prices do they typically command?
    - Calculate the median, and percentiles for each property type.
 3. Typical number of bedrooms & bathrooms, sqft. and parking in each type of property
-4. 🔴 ❗ Which feature has the greatest contribution to the house price? 
+4. 🟧 Which feature has the greatest contribution to the house price? 
 5. How much negotiation takes place during housing deals? (The mean of the difference between Final Price and Listed Price)
 6. ✅ Determining the spread of housing & the mean price of houses in each area (neighbourhood locations and shapes are from another dataset)
    - Calculate the median, and percentiles of prices for each neighbourhood.
