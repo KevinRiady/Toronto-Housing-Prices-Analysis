@@ -1,6 +1,9 @@
 ## Toronto Housing Price Analysis
 
 ### Results:
+#### Top 5 Final Prices of Properties by Type in Toronto
+[FinalPricesOfPropertiesByType](Results/final-prices-of-different-properties-by-type.png)
+
 #### Toronto Neighbourhood Boundaries - Shapefile is from OpenDataToronto and visualization is plotted with Python's GeoPandas library
 ![](https://github.com/KevinRiady/Toronto-Housing-Prices-Analysis/blob/master/Results/Toronto-neighbourhood-boundaries.png)
 
@@ -32,46 +35,52 @@
 ![](https://github.com/KevinRiady/Toronto-Housing-Prices-Analysis/blob/master/Results/features-correlation-graph.png)
 
 ### End to End Machine Learning Project
+
+
 1. **End Goal**
      - A web application service for eager homebuyers/homesellers.
-     - By inputting address/No. of bedrooms or bathrooms/ square feet, you'd be able to predict the appropriate house price up to X% of accuracy. 
-     - By inputting your income, find which areas would be best suited for you. Find areas where you'd be below average & where you'd be above average in income. 
+         1. By inputting address/No. of bedrooms or bathrooms/ square feet, you'd be able to predict the appropriate house price up to X% of accuracy. 
+         2. By inputting your income, find which areas would be best suited for you. Find areas where you'd be below average & where you'd be above average in income. 
      
-2. Framing the Analysis
+2. **Framing the Analysis**
    - It is a supervised learning and a univariate multiple regression problem.
    - Performance Measure: Root Mean Square Error (RMSE). 
      - Since the total number of outliers is quite low, this is more ideal than using Mean Absolute Error.
+   
+3. **Project Ideas**
+   - Implement a recommender system for houses in the neighbourhood you're interested in.
+
 
 **Making sense of the data:**
 1. ✅ How many different types of properties are there?
-2. For each property type, what prices do they typically command?
-   - Calculate the median, and percentiles for each property type.
-3. Typical number of bedrooms & bathrooms, sqft. and parking in each type of property
-4. 🟧 Which feature has the greatest contribution to the house price? 
-5. How much negotiation takes place during housing deals? (The mean of the difference between Final Price and Listed Price)
+2. ✅ For each property type, what prices do they typically command?
+    - ✅ Calculate the median, and percentiles for each property type.
+3. 🟧 Typical number of bedrooms & bathrooms, sqft. and parking in each type of property
+4. ✅ Which feature has the greatest contribution to the house price? 
+5. 🟧 How much negotiation takes place during housing deals? (The mean of the difference between Final Price and Listed Price)
 6. ✅ Determining the spread of housing & the mean price of houses in each area (neighbourhood locations and shapes are from another dataset)
    - Calculate the median, and percentiles of prices for each neighbourhood.
 7. ✅ Average income of the people who live in those areas (from title or full address)
 8. ✅ How correlated is average income with final home price?
 
-**Data Analytics and Machine Learning Techniques used in this project:**
-- Stratified sampling to ensure sufficient number of instances within each income bracket.
+**Data Science and Machine Learning Techniques used in this project:**
+- ✅ Stratified sampling to ensure sufficient number of instances within each income bracket.
 - ✅ Identifying correlations
 - Exploring attribute combinations
 - ✅ Handling text and categorial attributes.
 - ✅ Power Transformers using Bokeh/Seaborn - Log Transform: Purpose is to normalize a skewed dataset. The use of Yeo-Johnson Transformation
 - ✅ Feature scaling and feature importance matrix (Tree Repressor)
-- Custom imputer for missing values: Base Estimator and TransformerMixin
+- 🟧 Custom imputer for missing values: Base Estimator and TransformerMixin
 
 **Machine Learning Steps:**
 
 Introduction
-1. Train and test set
+1. ✅ Train and test set
    - Ensuring the use of stratified sampling vs. random sampling to ensure enough instances within each income bracket.
-2. Exploring models and shortlisting the best ones
-3. Creation of custom evaluation functions
-4. Creating estimator space and preselecting models 
-5. Cross-validation technique
+2. ✅ Exploring models and shortlisting the best ones
+3. ✅ Creation of custom evaluation functions
+4. ✅ Creating estimator space and preselecting models 
+5. ✅ Cross-validation technique
 Hyperparameter Tuning
 1. Intro to Bayesian Optimization
 2. Using various techniques: LightGBM with Hyperopt, LightGBM with RandomSearchCV, Hyperopt vs RandomSearchCV, XGboost with Hyperopt, RandomForest with Hyperopt
