@@ -2,7 +2,7 @@
 
 ### Results:
 #### Top 5 Final Prices of Properties by Type in Toronto
-[FinalPricesOfPropertiesByType](Results/final-prices-of-different-properties-by-type.png)
+![Top 5 Final Prices of Properties by Type in Toronto](../master/Results/final-prices-of-different-properties-by-type.png)
 
 #### Toronto Neighbourhood Boundaries - Shapefile is from OpenDataToronto and visualization is plotted with Python's GeoPandas library
 ![](https://github.com/KevinRiady/Toronto-Housing-Prices-Analysis/blob/master/Results/Toronto-neighbourhood-boundaries.png)
