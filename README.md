@@ -82,9 +82,9 @@ Introduction
 4. ✅ Creating estimator space and preselecting models 
 5. ✅ Cross-validation technique
 Hyperparameter Tuning
-1. Intro to Bayesian Optimization
-2. Using various techniques: LightGBM with Hyperopt, LightGBM with RandomSearchCV, Hyperopt vs RandomSearchCV, XGboost with Hyperopt, RandomForest with Hyperopt
-3. Leverage encapsulation using StackingCVRegressor
+6. ✅Intro to Bayesian Optimization
+7. 🟧Using various techniques: LightGBM with Hyperopt, LightGBM with RandomSearchCV, Hyperopt vs RandomSearchCV, XGboost with Hyperopt, RandomForest with Hyperopt
+8. 🟥Leverage encapsulation using StackingCVRegressor
 
 **Key Learning Opportunities**
 - sklearn API design principles of Consistency (Estimators, Transformers, Predictors) and Inspection (Non-profileration of classes, composition and sensible defaults).
