@@ -55,9 +55,9 @@
 1. ✅ How many different types of properties are there?
 2. ✅ For each property type, what prices do they typically command?
     - ✅ Calculate the median, and percentiles for each property type.
-3. 🟧 Typical number of bedrooms & bathrooms, sqft. and parking in each type of property
+3. ✅ Typical number of bedrooms & bathrooms, sqft. and parking in each type of property
 4. ✅ Which feature has the greatest contribution to the house price? 
-5. 🟧 How much negotiation takes place during housing deals? (The mean of the difference between Final Price and Listed Price)
+5. ✅ How much negotiation takes place during housing deals? (The mean of the difference between Final Price and Listed Price)
 6. ✅ Determining the spread of housing & the mean price of houses in each area (neighbourhood locations and shapes are from another dataset)
    - Calculate the median, and percentiles of prices for each neighbourhood.
 7. ✅ Average income of the people who live in those areas (from title or full address)
@@ -88,3 +88,14 @@ Hyperparameter Tuning
 
 **Key Learning Opportunities**
 - sklearn API design principles of Consistency (Estimators, Transformers, Predictors) and Inspection (Non-profileration of classes, composition and sensible defaults).
+
+**Performance enhancements to be implemented**
+- Speed:
+    - Modify import statements for quicker imports
+    - Make read_excel faster
+    - ❗ Modify slow *for* loops with their corresponding list comprehension version
+- Memory:
+    - Reduce the number of dataframe copies
+    
+**Enhancing Data Visualization Results**
+- *Final price by property type* boxplot -> remove outliers from view for a more effective visualization.
