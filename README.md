@@ -34,6 +34,10 @@
 #### Feature Correlation Graph
 ![](https://github.com/KevinRiady/Toronto-Housing-Prices-Analysis/blob/master/Results/features-correlation-graph.png)
 
+#### ML Algorithms Test Scores
+![](../master/Results/ML-algo-test-scores.png)
+
+
 ### End to End Machine Learning Project
 
 
